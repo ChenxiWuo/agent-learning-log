@@ -1,0 +1,18 @@
+{
+  "_note": "单位：美元/1M tokens。数值取自 DeepSeek 官方定价页（2026-11 核对），模型或价格一变动，这里就要手改——这也是 W1 成本意识的一部分。",
+  "_source": "https://api-docs.deepseek.com/quick_start/pricing",
+  "_peak_rule": "忙时 = 周一至周五 UTC 01:00-04:00、06:00-10:00（北京时间 09:00-12:00、14:00-18:00）；其余时间及周末、法定节假日按闲时，价格为忙时的一半。",
+  "off_peak_multiplier": 0.5,
+  "models": {
+    "deepseek-flash": {
+      "cache_hit": 0.006,
+      "cache_miss": 0.3,
+      "output": 1.2
+    },
+    "deepseek-v4-pro": {
+      "cache_hit": 0.044,
+      "cache_miss": 1.32,
+      "output": 3.96
+    }
+  }
+}
